@@ -1,0 +1,53 @@
+Algoritimo
+
+Conjunto finito de instruções criada para solucionar um problema
+
+
+
+
+Construção de algoritimo
+
+Compreenda o problemas, difena a entrada, defina o que será processado e defina a saída
+
+
+
+Variável
+
+-É um espaço volátil na memória, pode ser do tipo: real, inteiro, caractere e lógico.
+-Para a declaração de variável é necessário usar o Var
+-As variáveis devem se iniciar com uma letra e não podem conter caractere especial.
+-Deve ser declarado o tipo de variável após a declaração da variável com :
+-Pode se agrupar em uma linha várias variáveis de tipos iguais e declarar seu tipo no final da linha.
+-Não pode haver espaço no "nome" da variável
+-as variáveis não podem ser iguais a palavras reservadas da linguagem.
+Ex:
+
+Var
+	x, Xtrabalhadas, hExtra, fgts: real
+	y: inteiro
+	facil: lógico
+	nome, endereco: caractere
+
+
+
+Constantes
+
+Variável que não muda seu conteúdo
+
+
+
+Expressões aritmética
+
+soma +, Subtração -, multiplicação *, divisão /, potência **, resto mod
+
+
+
+Expressões relacionais 
+
+igual =, maior >, maior igual >=, diferente <>, menor igual <=, menor <
+
+
+
+Expressões lógicas
+
+E, OU, NÃO 
