@@ -7,18 +7,42 @@ Conjunto finito de instruções criada para solucionar um problema
 
 Construção de algoritimo
 
-Compreenda o problemas, difena a entrada, defina o que será processado e defina a saída
+Compreenda o problemas, defina a entrada, defina o que será processado e defina a saída
 
+ex:
+
+Descobrir a raiz e o quadrado de um número
+
+Algoritmo: Resultado Raiz e Quadrado
+
+// Declaração das variáveis
+
+Var
+	num: inteiro
+Incio
+
+//Entrada dos dados
+	
+	Escreva "Digite um número"
+	Leia num
+	
+//Saída de dados
+
+	Escreva "O número é ", num
+	Escreva "A raiz é ", sqrt(num)
+	Escreva "O quadrado é ", sqr(num)
+
+fim
 
 
 Variável
 
 -É um espaço volátil na memória, pode ser do tipo: real, inteiro, caractere e lógico.
 -Para a declaração de variável é necessário usar o Var
--As variáveis devem se iniciar com uma letra e não podem conter caractere especial.
+-As variáveis devem se iniciar com uma letra e não podem conter caractere especial (@#$%*).
 -Deve ser declarado o tipo de variável após a declaração da variável com :
--Pode se agrupar em uma linha várias variáveis de tipos iguais e declarar seu tipo no final da linha.
--Não pode haver espaço no "nome" da variável
+-Pode se agrupar em uma linha várias variáveis de tipos iguais e declarar seu tipo no final da linha (var num, num: inteiro).
+-Não pode haver espaço no "nome" da variável ( var Ender eço: caractere)
 -as variáveis não podem ser iguais a palavras reservadas da linguagem.
 Ex:
 
@@ -34,6 +58,7 @@ Constantes
 
 Variável que não muda seu conteúdo
 
+EX: Const: Vermelho
 
 
 Expressões aritmética
