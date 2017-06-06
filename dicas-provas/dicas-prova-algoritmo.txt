@@ -23,10 +23,10 @@ Variável
 Ex:
 
 Var
-	x, Xtrabalhadas, hExtra, fgts: real
-	y: inteiro
-	facil: lógico
-	nome, endereco: caractere
+	x, Xtrabalhadas, hExtra, fgts: Real
+	y: Inteiro
+	facil: Lógico
+	nome, endereco: Caractere
 
 
 
@@ -51,3 +51,17 @@ igual =, maior >, maior igual >=, diferente <>, menor igual <=, menor <
 Expressões lógicas
 
 E, OU, NÃO 
+
+
+Estruturas condicionais
+
+-Estruturas que permitem desviar o fluxo do programa e impor condições para que partes do código seja executado.
+
+Estrutura condicional simples
+
+-Estrutura onde o comando que esta dentro da estrutura só será executado se a condição for verdadeira
+-Estrutura que fica encarregada de tomar apenas uma decisão simples, se vai executar ou não o bloco de comandos.
+Ex:
+	Se ($i = 1) então
+		Escreva ("Portugol já é chato, portugol inventado pela Unicesumar para impedir o teste no compilador é um lixo")
+	fim_se
