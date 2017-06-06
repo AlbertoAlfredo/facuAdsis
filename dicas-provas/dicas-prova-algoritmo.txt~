@@ -62,7 +62,7 @@ Estrutura condicional simples
 -Estrutura onde o comando que esta dentro da estrutura só será executado se a condição for verdadeira
 -Estrutura que fica encarregada de tomar apenas uma decisão simples, se vai executar ou não o bloco de comandos.
 Ex:
-	Se ($i = 1) então
+	Se (i = 1) então
 		Escreva ("Portugol já é chato, portugol inventado pela Unicesumar para impedir o teste no compilador é um lixo")
 	fim_se
 	
@@ -71,7 +71,7 @@ Estrutura condicional composta
 -Estrutura onde se avalia uma condição e se for verdadeira será executado um determinado bloco e se for falsa será executado outro bloco
 -Estrutura que se encarrega de tomar uma decisão menos simples, onde irá decidir se executa um bloco ou outro.
 Ex:
-	Se ($x <> 4) então
+	Se (x <> 4) então
 		Escreva ("A prova será fácil para quem está estudando desde o inicio e não deixou para a ultima hora")
 	Senão
 		Escreva ("Se ignorarmos as aulas ao vivo a matério foi até que mais ou menos explicada")
@@ -82,5 +82,60 @@ Estrutura condicional aninhada
 -Estrutura onde se tem uma estrutura condicional dentro de outra estrutura condicional.
 -Primeiro será executada a estrutura condicional de fora pra depois a de dentro, assim vai se entrando um nível por vez
 Ex
-	Se ($x > $i)
-		Se ($i < $z)
+	Se (x > i) então
+		Se (i < z) então
+			Escreva ("Escrita")
+		Senão
+			Escreva("Escrita2")
+		fim_se
+	Senão
+		Se(i > z) então
+			Escreva ("Texto")
+		Senão
+			Escreva ("Texto2")
+		fim_se
+	fim_se
+	
+Estrutura de decisão múltipla
+
+-Estutura evouída do se, onde você deterina condições e ela faz a verificação de qual condição foi sanada e executa o código
+Ex:
+	caso ($i)
+		seja (1) faça
+			Escreva ("1")
+		seja (2) faça
+			Escreva ("2")
+		seja (3) faça
+			Escreva ("3")
+		seja (4) faça
+			Escreva ("4")
+		seja (5) faça
+			Escreva ("5")
+		seja (6) faça
+			Escreva ("6")
+		seja (7) faça
+			Escreva ("7")
+		seja (8) faça
+			Escreva ("8")
+		seja (9) faça
+			Escreva ("9")
+		senão
+			Escreva "Não sei qual o seu número"
+	Fim_caso
+	
+Estrutura de repetição
+
+-Estrutura onde dado determinado parametro o bloco de comando irá se repetir até a condição ser sanada.
+
+Estrutura PARA
+
+-Estrutura onde haverá repetição por uma quantidade predeterminada de vezes
+
+Ex:
+	PARA x de 1 até 10 passo 1 faça
+		Escreva (x)
+	fim_para
+	
+Estrutura ENQUANTO
+
+-Estrutura onde não se tem u

@@ -95,3 +95,48 @@ Ex
 			Escreva ("Texto2")
 		fim_se
 	fim_se
+	
+Estrutura de decisão múltipla
+
+-Estutura evouída do se, onde você deterina condições e ela faz a verificação de qual condição foi sanada e executa o código
+Ex:
+	caso ($i)
+		seja (1) faça
+			Escreva ("1")
+		seja (2) faça
+			Escreva ("2")
+		seja (3) faça
+			Escreva ("3")
+		seja (4) faça
+			Escreva ("4")
+		seja (5) faça
+			Escreva ("5")
+		seja (6) faça
+			Escreva ("6")
+		seja (7) faça
+			Escreva ("7")
+		seja (8) faça
+			Escreva ("8")
+		seja (9) faça
+			Escreva ("9")
+		senão
+			Escreva "Não sei qual o seu número"
+	Fim_caso
+	
+Estrutura de repetição
+
+-Estrutura onde dado determinado parametro o bloco de comando irá se repetir até a condição ser sanada.
+
+Estrutura PARA
+
+-Estrutura onde haverá repetição por uma quantidade predeterminada de vezes
+
+Ex:
+	PARA x de 1 até 10 passo 1 faça
+		Escreva (x)
+	fim_para
+	
+Estrutura ENQUANTO
+
+-Estrutura onde se inicia uma repetição, ela irá repetir o bloco de comando enquanto o parâmetro estiver sendo atendido.
+
