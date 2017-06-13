@@ -8,7 +8,12 @@ int main()
 
     /*inicio da execução*/
     printf("Digite um número inteiro positivo");//Saida de dados na tela
-    scanf("%i", num);//Entrada de dados do usuario
+    scanf("%d", &num);//Entrada de dados do usuario
 
-    return 0;
+    raiz = sqrt(num);//calculo da raiz
+    quadrado = pow(num, 2);//calculo do quadrado
+
+    printf("A raiz de %d é %d e %d elevado ao quadrado é %d", num, raiz, num, quadrado);//saida do resultado em tela com frase amigável
+
+    return 0;//retrno obrigatório
 }
